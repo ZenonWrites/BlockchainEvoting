@@ -107,7 +107,6 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
 pyunormalize==16.0.0
-pywin32==310
 regex==2024.11.6
 requests==2.32.3
 retina-face==0.0.17
