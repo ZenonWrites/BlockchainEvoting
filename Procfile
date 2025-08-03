@@ -1,1 +1,1 @@
-web: cd backend && source env/bin/activate && gunicorn main.wsgi
+web: cd backend && source env/bin/activate && gunicorn core.wsgi
