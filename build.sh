@@ -1,16 +1,14 @@
 #!/bin/bash
 
-
+# Move into backend directory
 cd backend
 
-# Python 3.10 venv
-python3.10 -m venv env
-source env/bin/activate
-
-# Install dependencies
+# Upgrade pip
 pip install --upgrade pip
+
+# Install requirements
 pip install -r requirements.txt
 
-
+# Django setup
 python manage.py migrate
-python manage.py collectstatic --noinput
+python manage.py collectstatic --noinput --clear
