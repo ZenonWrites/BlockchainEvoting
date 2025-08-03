@@ -32,7 +32,7 @@ django-rest-passwordreset==1.5.0
 django-shortcuts==1.6
 djangorestframework==3.16.0
 djangorestframework_simplejwt==5.5.0
-dlib @ file:///E:/downloads/dlib-19.22.99-cp310-cp310-win_amd64.whl
+dlib==19.22.0
 dotenv==0.9.9
 dynaconf==3.2.10
 eth-account==0.13.6
